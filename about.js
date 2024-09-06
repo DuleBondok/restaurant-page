@@ -1,8 +1,4 @@
-import "../../src/styles.css";
-import about1 from '../../src/images/about.jpg';
-
-
-export const loadAboutPage = () => {
+function loadAboutPage(){
 
     const contentDiv = document.getElementById("content");
     contentDiv.style.backgroundColor =  "black";
@@ -13,7 +9,7 @@ export const loadAboutPage = () => {
     contentDiv.style.alignItems = "center";
 
     let about = document.createElement("img");
-    about.src = about1;
+    about.src = "./images/about.jpg"
     about.id = "aboutImg";
 
     contentDiv.appendChild(about);
