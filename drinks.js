@@ -1,13 +1,4 @@
-import "../../src/styles.css";
-import coffee1 from '../../src/images/coffee.jpg';
-import smothie1 from '../../src/images/smothie.jpg';
-import beer1 from '../../src/images/beer.jpg';
-import whiskey1 from '../../src/images/whiskey.jpg';
-import wine1 from '../../src/images/wine.jpg';
-import mojito1 from '../../src/images/mojito.jpg';
-
-
-export const loadDrinkPage = () => {
+function loadDrinkPage() {
     const contentDiv = document.getElementById("content");
     contentDiv.style.backgroundColor =  "white";
     contentDiv.style.display = "flex";
@@ -38,7 +29,7 @@ export const loadDrinkPage = () => {
 
     let coffee = document.createElement("img");
     coffee.id = "divPic";
-    coffee.src = coffee1;
+    coffee.src = "./images/coffee.jpg";
 
     let titleDrink1 = document.createElement("h3");
     titleDrink1.textContent = "Coffee";
@@ -56,7 +47,7 @@ export const loadDrinkPage = () => {
 
     let smothie = document.createElement("img");
     smothie.id = "divPic";
-    smothie.src = smothie1;
+    smothie.src = "./images/smothie.jpg";
 
     let titleDrink2 = document.createElement("h3");
     titleDrink2.textContent = "Natural smothie";
@@ -74,7 +65,7 @@ export const loadDrinkPage = () => {
 
     let beer = document.createElement("img");
     beer.id = "divPic";
-    beer.src = beer1;
+    beer.src = "./images/beer.jpg";
 
     let titleDrink3 = document.createElement("h3");
     titleDrink3.textContent = "Spicy beer";
@@ -114,7 +105,7 @@ export const loadDrinkPage = () => {
 
     let whiskey = document.createElement("img");
     whiskey.id = "divPic";
-    whiskey.src = whiskey1;
+    whiskey.src = "./images/whiskey.jpg";
 
     let titleDrink4 = document.createElement("h3");
     titleDrink4.textContent = "Whiskey";
@@ -132,7 +123,7 @@ export const loadDrinkPage = () => {
 
     let wine = document.createElement("img");
     wine.id = "divPic";
-    wine.src = wine1;
+    wine.src = "./images/wine.jpg";
 
     let titleDrink5 = document.createElement("h3");
     titleDrink5.textContent = "Wine";
@@ -150,7 +141,7 @@ export const loadDrinkPage = () => {
 
     let mojito = document.createElement("img");
     mojito.id = "divPic";
-    mojito.src = mojito1;
+    mojito.src = "./images/mojito.jpg";
 
     let titleDrink6 = document.createElement("h3");
     titleDrink6.textContent = "Mojito";
