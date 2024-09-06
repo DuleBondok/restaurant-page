@@ -1,0 +1,261 @@
+@font-face {
+    font-family: Tangerine;
+    src: url(./fonts/Tangerine-Bold.ttf);
+}
+
+@font-face {
+    font-family: Monsterrat;
+    src: url(./fonts/Montserrat-Italic-VariableFont_wght.ttf);
+}
+
+
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+
+}
+header
+{
+    display: flex;
+    flex-direction: row;
+    height: 150px;
+    align-items: center;
+    gap: 800px;
+    background-color: black;
+    justify-content: center;
+    position: sticky;
+    width: 100%;
+}
+
+.restaurantName
+{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 30px;
+    font-size: 70px;
+    font-family: Tangerine;
+    font-weight: bold;
+}
+
+.logo
+{
+    width: 120px;
+    height: auto;
+}
+
+.navDiv
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+}
+
+.navBtn
+{
+    height: 40px;
+    width: 80px;
+    border-radius: 10px;
+    font-family: Montserrat;
+    font-size: 20px;
+    color: white;
+    background-color: black;
+    border: 2px solid sienna;
+}
+
+.navBtn:hover
+{
+    background-color: rgb(36, 35, 35);
+}
+nav
+{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    gap: 30px;
+}
+
+#div1 
+{
+    width: 900px;
+    height: 750px;
+    border: 2px solid white;
+    position: fixed;
+    bottom: 10px;
+    left: 500px;
+    background-color: black;
+    opacity: 0.92;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#textOnPage
+{
+    z-index: 3;
+    color: rgb(243, 77, 0);
+    font-family: Tangerine;
+    font-size: 60px;
+    opacity: 1;
+    margin-top: 60px;
+}
+
+#workTime
+{
+    z-index: 3;
+    color: white;
+    font-family: Montserrat;
+    margin-top: 30px;
+    font-size: 30px;
+}
+
+#innerDiv
+{
+    border-radius: 20px;
+    margin-top: 50px;
+    width: 420px;
+    height: 330px;
+    z-index: 3;
+    background-color: rgb(243, 77, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#beansImg
+{
+    width: 400px;
+    opacity: 1;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+#textUnderImg
+{
+    font-size: 20px;
+    margin-top: 10px;
+    font-weight: bold;
+
+}
+
+#mainCourseText
+{
+    color: rgb(243, 77, 0);
+    font-size: 70px;
+    font-weight: bold;
+    z-index: 1;
+    font-family: Tangerine;
+    margin-top: 30px;
+}
+
+#underMainCourseText
+{
+    font-family: Montserrat;
+    font-size: 23px;
+}
+
+#rowDiv1
+{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 400px;
+    margin-top: 60px;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+}
+
+#rowDiv2
+{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 400px;
+    margin-top: 20px;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+}
+
+#menuFoodDiv
+{
+    width: 320px;
+    height: 390px;
+    border: 1px solid rgb(243, 77, 0);
+    border-radius: 20px;
+    background-color: rgba(255, 238, 0, 0.582);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#divPic
+{
+    width: 230px;
+    border-radius: 20px;
+    margin-top: 30px;
+    opacity: 1;
+}
+
+#titleFood
+{
+    margin-top: 10px;
+    color: rgb(243, 77, 0);
+    font-family: Tangerine;
+    font-size: 50px;
+}
+
+#description
+{
+    font-family: Montserrat;
+    margin-top: 4px;
+}
+
+#price
+{
+    margin-top: 10px;
+    color: green;
+    font-size: 25px;
+}
+
+#aboutImg
+{
+    width: 500px;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+
+#contactBtn
+{
+    background-color: black;
+    color: white;
+    font-family: Montserrat;
+    width: 140px;
+    margin-top: 20px;
+    height: 40px;
+    border: 1px solid rgb(243, 77, 0);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#textUnderBtn
+{
+    color: white;
+    margin-top: 20px;
+    font-size: 16px;
+}
