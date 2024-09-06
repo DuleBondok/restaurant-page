@@ -1,12 +1,7 @@
-import "../../src/styles.css";
-import myImage from '../../src/images/mainImg.jpg';
-import beans from '../../src/images/pasulj.jpg';
-
-
-export const loadHomePage = () => {
+function loadHomePage() {
     const contentDiv = document.getElementById("content");
     const restaurantImage = document.createElement("img")
-    restaurantImage.src = myImage;
+    restaurantImage.src = "./images/mainImg.jpg";
     restaurantImage.alt = "Image of restaurant";
     restaurantImage.style.width = "100%";
     restaurantImage.style.zIndex = "0";
@@ -31,7 +26,7 @@ export const loadHomePage = () => {
 
     let beanPic = document.createElement("img");
     beanPic.id = "beansImg";
-    beanPic.src = beans;
+    beanPic.src = "./images/pasulj.jpg";
     beanPic.alt = "Image of food";
     innerDiv.appendChild(beanPic);
 
@@ -42,3 +37,5 @@ export const loadHomePage = () => {
 
     contentDiv.appendChild(div1);
 };
+
+loadHomePage();
