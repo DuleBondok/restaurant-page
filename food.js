@@ -1,12 +1,4 @@
-import "../../src/styles.css";
-import soup1 from '../../src/images/soup.jpg';
-import sandwich1 from '../../src/images/sandwich.jpg';
-import sushi1 from '../../src/images/sushi.jpg';
-import steak1 from '../../src/images/steak.jpg';
-import macaroni1 from '../../src/images/macaroni.jpg';
-import pancakes1 from '../../src/images/pancakes.jpg';
-
-export const loadFoodPage = () => {
+function loadFoodPage() {
     const contentDiv = document.getElementById("content");
     contentDiv.style.backgroundColor =  "white";
     contentDiv.style.display = "flex";
@@ -37,7 +29,7 @@ export const loadFoodPage = () => {
 
     let soup = document.createElement("img");
     soup.id = "divPic";
-    soup.src = soup1;
+    soup.src = "./images/soup.jpg";
 
     let titleFood1 = document.createElement("h3");
     titleFood1.textContent = "Vegetable soup";
@@ -55,7 +47,7 @@ export const loadFoodPage = () => {
 
     let sandwich = document.createElement("img");
     sandwich.id = "divPic";
-    sandwich.src = sandwich1;
+    sandwich.src = "./images/sandwich.jpg";
 
     let titleFood2 = document.createElement("h3");
     titleFood2.textContent = "Prosciutto sandwich";
@@ -73,7 +65,7 @@ export const loadFoodPage = () => {
 
     let sushi = document.createElement("img");
     sushi.id = "divPic";
-    sushi.src = sushi1;
+    sushi.src = "./images/sushi.jpg";
 
     let titleFood3 = document.createElement("h3");
     titleFood3.textContent = "Carp Sushi";
@@ -113,7 +105,7 @@ export const loadFoodPage = () => {
 
     let steak = document.createElement("img");
     steak.id = "divPic";
-    steak.src = steak1;
+    steak.src = "./images/steak.jpg";
 
     let titleFood4 = document.createElement("h3");
     titleFood4.textContent = "Lamb steak";
@@ -131,7 +123,7 @@ export const loadFoodPage = () => {
 
     let macaroni = document.createElement("img");
     macaroni.id = "divPic";
-    macaroni.src = macaroni1;
+    macaroni.src = "./images/macaroni.jpg";
 
     let titleFood5 = document.createElement("h3");
     titleFood5.textContent = "Macaroni Bolognese";
@@ -149,7 +141,7 @@ export const loadFoodPage = () => {
 
     let pancakes = document.createElement("img");
     pancakes.id = "divPic";
-    pancakes.src = pancakes1;
+    pancakes.src = "./images/pancakes.jpg";
 
     let titleFood6 = document.createElement("h3");
     titleFood6.textContent = "Nutella pancakes";
