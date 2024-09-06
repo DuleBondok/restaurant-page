@@ -1,15 +1,8 @@
-import {loadHomePage} from "./scripts/home.js"
-import {loadFoodPage} from "./scripts/food.js"
-import {loadDrinkPage} from "./scripts/drinks.js"
-import {loadAboutPage} from "./scripts/about.js"
-import "./styles.css";
-
 const homeButton =document.getElementById("homeBtn");
 const foodButton = document.getElementById("foodBtn");
 const drinksButton = document.getElementById("drinksBtn");
 const aboutButton = document.getElementById("aboutBtn");
 
-loadHomePage();
 
 homeButton.addEventListener("click", () =>{
     const restaurantFirstPage = document.getElementById("content");
@@ -42,7 +35,6 @@ aboutButton.addEventListener("click", () =>{
     }
     loadAboutPage();
 });
-
 
 
 
